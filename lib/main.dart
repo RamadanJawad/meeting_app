@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
             theme: ThemeService().darkTheme,
-            home: LaunchScreen(),
+            home:const LaunchScreen(),
             darkTheme: ThemeService().darkTheme,
           );
         });

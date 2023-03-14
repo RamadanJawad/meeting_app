@@ -22,6 +22,6 @@ class HomeController extends GetxController {
   }
 
   jumpToMeeting({required String id}) {
-    Get.to(() => MeetingScreen(id: id,userId: userId,));
+    Get.to(() => MeetingScreen(id: id,userId: userId));
   }
 }
